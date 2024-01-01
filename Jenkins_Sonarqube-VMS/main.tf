@@ -22,7 +22,7 @@ resource "aws_security_group" "Jenkins-VM-SG" {
         to_port     = port
         protocol    = "tcp"
         cidr_blocks = ["0.0.0.0/0"]
-        ipv6_cidr_blockeys  =   []
+        ipv6_cidr_blocks  =   []
         prefix_list_ids =   []
         security_groups =   []
         self    =   false
